@@ -1,4 +1,9 @@
-- menu_name: "Dankeschön"
+- menu_name: "감사의 말"
+
+- name: "Theme by Moritz »mo.« Sauer"
+  url: "http://phlow.github.io/feeling-responsive/"
+  class: "site-theme"
+  title: "Theme by Moritz »mo.« Sauer"
 
 - name: "Icons by Daniel Bruce"
   url: "http://entypo.com/"

@@ -1,6 +1,6 @@
-- menu_name: "Services"
+- menu_name: "서비스"
 
-- name: "Contact"
+- name: "연락처"
   url: "/contact/"
   title: "Contact"
 
