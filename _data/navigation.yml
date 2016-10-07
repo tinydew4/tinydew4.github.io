@@ -15,18 +15,26 @@
   url: "/gitbook/"
   side: left
   dropdown:
-  - title: "Electron 문서"
+  - title: "Electron 문서 (영어)"
     url: "https://tinydew4.gitbooks.io/electron/content/"
+  - title: "Electron 문서 (한글)"
+    url: "https://tinydew4.gitbooks.io/electron-ko/content/"
+  - title: "GitBook 문서"
+    url: "https://tinydew4.gitbooks.io/gitbook/content/"
+  - title: "Today I learned"
+    url: "https://tinydew4.gitbooks.io/today-i-learned/content/"
 
 - title: 번역
   side: left
   dropdown:
-  - title: "기여자 규약"
-    url: "http://contributor-covenant.org/version/1/4/ko/"
   - title: "Electron 문서 (일부 참여)"
     url: "https://github.com/electron/electron/tree/master/docs-translations/ko-KR"
   - title: "Electron 한국어 사이트"
     url: "https://tinydew4.github.io/electron-ko"
+  - title: "기여자 규약"
+    url: "http://contributor-covenant.org/version/1/4/ko/"
+  - title: "GitBook 문서"
+    url: "https://tinydew4.gitbooks.io/gitbook/content/ko/index.html"
 
 - title: "검색"
   url: "/search/"
