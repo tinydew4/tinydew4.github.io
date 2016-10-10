@@ -1,0 +1,20 @@
+---
+layout: default
+format: work-index
+# Don't index these pages dear Google.
+noindex: true
+---
+
+{% for menu in site.data.navigation %}
+
+{% if menu.url == page.permalink %}
+
+{% for submenu in menu.dropdown %}
+
+<a href="{{ submenu.url | prepend: site.baseurl }}">{{ submenu.title | prepend: site.baseurl }}</a>
+
+{% endfor %}
+
+{% endif %}
+
+{% endfor %}

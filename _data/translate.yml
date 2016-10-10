@@ -1,0 +1,16 @@
+- title: "Electron"
+  items:
+  - title: "Electron 문서 (일부 참여)"
+    url: "https://github.com/electron/electron/tree/master/docs-translations/ko-KR"
+  - title: "Electron 한국어 사이트"
+    url: "https://tinydew4.github.io/electron-ko"
+- title: "GitHub"
+  items:
+  - title: "기여자 규약"
+    url: "http://contributor-covenant.org/version/1/4/ko/"
+- title: "GitBook"
+  items:
+  - title: "GitBook 문서"
+    url: "https://tinydew4.gitbooks.io/gitbook/content/ko/"
+  - title: "마크다운 알아보기"
+    url: "https://tinydew4.gitbooks.io/markdown/content/"

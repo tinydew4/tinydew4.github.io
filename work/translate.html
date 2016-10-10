@@ -1,0 +1,23 @@
+---
+layout: default
+title: "번역"
+teaser: "개인 번역 작업물."
+breadcrumb: true
+header:
+   image_fullwidth: header_unsplash_8.jpg
+permalink: "work/translate/"
+---
+{% for group in site.data.translate %}
+<div class="row">
+	<div class="small-12 columns t30">
+		<h1>{{ group.title }}</h1>
+		{% if group.teaser %}<p class="teaser">{{ group.teaser }}</p>{% endif %}
+
+        <div>
+            {% for item in group.items %}
+            <p><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title | prepend: site.baseurl }}</a></p>
+            {% endfor %}
+        </div>
+	</div><!-- /.small-12.columns -->
+</div><!-- /.row -->
+{% endfor %}
